@@ -64,13 +64,7 @@ main{
 }
 .order{
     display: flex;
-    width: calc(100% / 3 -20px);
-    height: 600px;
-    
-    justify-content: space-between;
-}
-.margin-container{
-    margin: 0px 10px;
+    flex-wrap: wrap;
 }
 .discount{
     text-decoration-line:line-through; 
@@ -78,3 +72,69 @@ main{
 .color-price{
     color: red;
 }
+.box{
+    width: calc(100% /3 -20px);
+    margin:10px;
+    justify-content: space-between;
+    position: relative;   
+}
+img{
+   width: 446.67px;
+   height: 644.88px; 
+
+}
+.red-targ{
+background-color: red;
+position: absolute;
+bottom: 80px;
+text-align: center;
+font-size: 12px;
+color: white;
+padding: 7px ;
+}
+.green-targ{
+    background-color: green;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 7px ;  
+}
+.heart{
+    position: absolute;
+    top:5px;
+    left: calc(100% - 50px);
+    background-color: white;
+    padding: 20px;
+    border: none;
+}
+#green-start{
+    background-color: green;
+    position: absolute;
+    bottom: 80px;
+    left: 0px;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 7px ;  
+}
+/* -----
+interaction
+*/
+.box:hover .img-default{
+    display:none;
+}
+.box:hover .img-secondary{
+    display:block;
+}
+.img-secondary{
+    display:none;
+}
+.light-red:hover{
+ color: red;
+}
+/* ------
+footer 
+-------*/
