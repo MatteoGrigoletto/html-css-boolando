@@ -73,14 +73,14 @@ main{
     color: red;
 }
 .box{
-    width: calc(100% /3 -20px);
+    width: calc(100% /3 - 20px);
     margin:10px;
     justify-content: space-between;
     position: relative;   
 }
 img{
-   width: 446.67px;
-   height: 644.88px; 
+    display:block;
+    width: 100%;
 
 }
 .red-targ{
