@@ -144,5 +144,20 @@ footer{
 .contact{
     display: flex;
     width: 100%;
-    
+    justify-content: space-between;
+}
+h5 , h6, .social, .footer-link ul li a{
+    color: white;
+    padding: 10px 0px;
+}
+h5{
+    font-size:14px ;
+}
+.footer-link ul li{
+    display: inline-block;
+}
+.footer-link ul li a{
+    font-size: 10px;
+    text-decoration: none;
+    list-style: none;
 }
