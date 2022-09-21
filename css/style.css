@@ -138,3 +138,11 @@ interaction
 /* ------
 footer 
 -------*/
+footer{
+    background-color: black;  
+}
+.contact{
+    display: flex;
+    width: 100%;
+    
+}
