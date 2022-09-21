@@ -9,3 +9,72 @@ general
 body{
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    max-width: 1400px;
+    margin: auto;
+   
+}
+/* -----
+header
+------ */
+header{
+    background-color: #FF6900 ;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 200;
+    padding: 30px 0px;
+}
+.top-header{
+    display: flex;  
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.genere{
+    width: 20%;    
+}
+.genere ul li{
+    display: inline-block;
+}
+.genere ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.logo{
+    background-image: url(../img/boolean-logo.png);
+    width: 60%;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon{
+    width: 20%;
+    color: white;
+    text-align: end;
+}
+/* -------
+main
+--------- */
+main{
+    padding: 150px 0px 0px 0px;
+}
+.order{
+    display: flex;
+    width: calc(100% / 3 -20px);
+    height: 600px;
+    
+    justify-content: space-between;
+}
+.margin-container{
+    margin: 0px 10px;
+}
+.discount{
+    text-decoration-line:line-through; 
+}
+.color-price{
+    color: red;
+}
